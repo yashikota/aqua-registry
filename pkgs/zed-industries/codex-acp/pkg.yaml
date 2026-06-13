@@ -1,0 +1,8 @@
+packages:
+  - name: zed-industries/codex-acp@v0.11.0
+  - name: zed-industries/codex-acp
+    version: v0.2.5
+  - name: zed-industries/codex-acp
+    version: 0.2.4
+  - name: zed-industries/codex-acp
+    version: v0.2.1
