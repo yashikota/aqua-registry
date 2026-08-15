@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/registry.json
+packages:
+  - type: github_release
+    repo_owner: yashikota
+    repo_name: gnu-assets
+    name: yashikota/gnu-assets/sed
+    description: GNU stream editor for filtering and transforming text
+    version_prefix: sed-v
+    asset: sed-{{.SemVer}}-{{.OS}}-{{.Arch}}.{{.Format}}
+    format: tar.gz
+    supported_envs:
+      - linux
+      - darwin/arm64
